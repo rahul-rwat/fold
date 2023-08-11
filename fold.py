@@ -4,11 +4,11 @@ import time as extractspeed
 import re 
 
 # Folder paths
-source_folders = [r"Z:\dji(labeld_img)\data_labeled"]
+source_folders = [r"source_folders"]
                  
 
-image_folder = r"Z:\dji(labeld_img)\data_labeled\output\images"
-label_folder = r"Z:\dji(labeld_img)\data_labeled\output\labels"
+image_folder = r"image_folder"
+label_folder = r"label_folder"
 
 # Create the destination folders if they don't exist
 os.makedirs(image_folder, exist_ok=True)
